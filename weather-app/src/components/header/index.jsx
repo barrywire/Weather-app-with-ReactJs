@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Image, Menu } from "semantic-ui-react";
-import "./index.css";
+import React from 'react';
+import { Container, Image, Menu } from 'semantic-ui-react';
+import './index.css';
 
 const Header = () => (
   <Menu fixed="top" inverted stackable>
