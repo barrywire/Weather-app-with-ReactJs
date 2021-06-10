@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  min-height: 100%;
+  position: relative;
+}
+
+.ui.grid {
+  margin: 0;
+}
+
+.text.white {
+  color: #ffffff;
+}
+
+.text.grey {
+  color: #cccccc;
+}
+
+.text.black {
+  color: #1b1c1d;
+}
+
+.text.yellow {
+  color: #f2c61f;
+}
+
+.text.teal {
+  color: #00b5ad;
+}
+
+.text.red {
+  color: #d95c5c;
+}
+
+.text.purple {
+  color: #564f8a;
+}
+
+.text.pink {
+  color: #d9499a;
+}
+
+.text.orange {
+  color: #e07b53;
+}
+
+.text.green {
+  color: #5bbd72;
+}
+
+.text.blue {
+  color: #3b83c0;
+}
+
+.text.olive {
+  color: #32cd32;
+}
+
+.text.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.grid {
+    font-size: 80%;
+  }
+
+  .weather-spacer {
+    margin-top: 0.4em;
+  }
+
+  .attach-statistic {
+    clear: both;
+    margin: auto;
+  }
 }
