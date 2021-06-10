@@ -15,7 +15,7 @@ const Header = () => (
             />
           </div>
           <div>
-            <span className="title">Creature of Tech</span>
+            <span className="title">Creature of Tech&nbsp;</span>
             <span className="sub-title">Adventures in bits and bytes</span>
           </div>
         </div>
