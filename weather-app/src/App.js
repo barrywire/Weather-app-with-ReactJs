@@ -1,23 +1,26 @@
-// eslint-disable-next-line
-import React, {Component} from "react";
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+import { Container } from "semantic-ui-react";
+import "./index.css";
+import Header from "./components/header";
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <header>
+          <Header />
+        </header>
+        <main>
+          <Container text>
+            <div className="page-content-container" />
+            <h1>Hello World!</h1>
+          </Container>
+        </main>
+      </div>
+    );
+  }
 }
-
 export default App;
