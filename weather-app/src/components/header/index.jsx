@@ -11,7 +11,7 @@ const Header = () => (
             <Image
               className="logo-cot"
               size="mini"
-              src="https://i1.wp.com/creatureoftech.com/wp-content/uploads/2018/05/rob_welan_100x100.png"
+              src="https://www.creatureoftech.com/static/0d8a4899290805e294472a0e5265d5af/d8419/favicon-96x96.png"
             />
           </div>
           <div>
